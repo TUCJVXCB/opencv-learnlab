@@ -1,6 +1,6 @@
 import cv2
 import matplotlib.pylab as plt
-import numpy as np
+import numpy_demo as np
 
 
 # This is a sample Python script.
@@ -42,7 +42,7 @@ def show_video():
 if __name__ == '__main__':
     img = cv2.imread('Resources/lena.png')
     kernel = np.ones((5, 5), np.uint8)
-    print(type)
+    print(img)
 
     grayImg = img
     blurImg = cv2.GaussianBlur(grayImg, (7, 7), 0)

@@ -1,5 +1,5 @@
 import cv2
-import numpy as np
+import numpy_demo as np
 
 
 def stackImages(scale, imgArray):
